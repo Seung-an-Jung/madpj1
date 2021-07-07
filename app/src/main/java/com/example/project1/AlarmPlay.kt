@@ -23,7 +23,7 @@ object AlarmPlay {
 
         mediaPlayer = MediaPlayer.create(context, sounds[num])
         audioManager = context.getSystemService(Context.AUDIO_SERVICE) as AudioManager
-        audioManager!!.setStreamVolume(AudioManager.STREAM_MUSIC, 2, 0)
+        audioManager!!.setStreamVolume(AudioManager.STREAM_MUSIC, 5, 0)
         mediaPlayer?.isLooping = true
         mediaPlayer?.start()
     }

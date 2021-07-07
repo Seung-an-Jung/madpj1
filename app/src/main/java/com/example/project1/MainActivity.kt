@@ -76,7 +76,6 @@ class MainActivity : AppCompatActivity() {
                     ACTION_MANAGE_OVERLAY_PERMISSION_REQUEST_CODE
                 )
             }
-
         }
 
     }
